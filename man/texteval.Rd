@@ -1,4 +1,5 @@
 \name{texteval}
+\alias{capture}
 \alias{texteval}
 \alias{printed}
 \title{Evaluate string(s) containing R commands and return the text
@@ -8,17 +9,21 @@
   transcript or printed results
 }
 \usage{
+capture(expression, collapse=NULL)
 texteval(sourceText, collapse=NULL, echo=TRUE)
 printed(sourceText, collapse=NULL)
 }
 \arguments{
+  \item{expression}{ R expression to be evaluated }
   \item{sourceText}{ Vector of string to be evaluated.  }
   \item{collapse}{ Line separator. Defaults to \code{NULL} }
   \item{echo}{ Should commands be shown in output. Defaults to
     \code{TRUE} }
 }
 \details{
-  \code{texteval} and \code{printed} evaluate the contents of sourceText
+  \code{capture} captures the results of executing \code{expression}
+  using a \code{textConnection}. \code{texteval} and \code{printed}
+  parse and evaluate the contents of sourceText
   using \code{source} and the results are captured using a
   \code{textConnection}.  If \code{collapse} is NULL, a
   vector of strings is returned, one element for each line of output.

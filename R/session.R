@@ -1,6 +1,10 @@
-# $Id: session.R,v 1.3 2002/10/22 13:33:21 warnesgr Exp $
+# $Id: session.R,v 1.4 2003/04/04 14:03:59 warnes Exp $
 #
 # $Log: session.R,v $
+# Revision 1.4  2003/04/04 14:03:59  warnes
+#
+# - Change 'T' to 'TRUE'
+#
 # Revision 1.3  2002/10/22 13:33:21  warnesgr
 # - Fix reloading of attached files.
 #

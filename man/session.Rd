@@ -1,6 +1,10 @@
-% $Id: session.Rd,v 1.4 2003/03/15 23:03:43 warnes Exp $
+% $Id: session.Rd,v 1.5 2003/04/04 13:50:44 warnes Exp $
 %
 % $Log: session.Rd,v $
+% Revision 1.5  2003/04/04 13:50:44  warnes
+%
+% - Change 'T' to 'TRUE'
+%
 % Revision 1.4  2003/03/15 23:03:43  warnes
 %
 % - Clarified, spell-checked, and fixed a syntax error in help files.
@@ -55,7 +59,7 @@ restore.session(file=".RSession", ...)
 
 \examples{
 
-  ls(all=T) # show all data objects
+  ls(all=TRUE) # show all data objects
   search()  # list search path
 
   # save the current R session to the file "RSession.Rda"
@@ -72,7 +76,7 @@ restore.session(file=".RSession", ...)
   # load a saved R session from "RSession.Rda"
   restore.session("RSession.Rda")
 
-  ls(all=T) # show all data objects
+  ls(all=TRUE) # show all data objects
   search()  # list search path
 
 }
