@@ -1,4 +1,0 @@
-save.session            Save and restore session information, including
-                        loaded packages and attached data objects.
-texteval                Evaluate string(s) containing R commands and
-                        return the text transcript or printed results

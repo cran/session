@@ -1,8 +1,7 @@
-# $Id: session.R,v 1.4 2003/04/04 14:03:59 warnes Exp $
+# $Id: session.R 201 2003-04-04 14:03:59Z warnes $
 #
-# $Log: session.R,v $
+# $Log$
 # Revision 1.4  2003/04/04 14:03:59  warnes
-#
 # - Change 'T' to 'TRUE'
 #
 # Revision 1.3  2002/10/22 13:33:21  warnesgr

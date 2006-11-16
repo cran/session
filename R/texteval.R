@@ -1,8 +1,7 @@
-# $Id: texteval.R,v 1.5 2003/04/01 22:36:07 warnes Exp $
+# $Id: texteval.R 198 2003-04-01 22:36:07Z warnes $
 #
-# $Log: texteval.R,v $
+# $Log$
 # Revision 1.5  2003/04/01 22:36:07  warnes
-#
 # - Added 'capture' function that grabs the result of evaluating an expression.
 # - Modified texteval to use capture.
 #
