@@ -1,4 +1,4 @@
-% $Id: session.Rd 358 2006-11-16 18:44:42Z warnes $
+% $Id: session.Rd 372 2011-08-26 23:11:28Z warnes $
 %
 % $Log$
 % Revision 1.5  2003/04/04 13:50:44  warnes
@@ -49,7 +49,7 @@ restore.session(file=".RSession", ...)
 \value{
   No return value.
 }
-\author{ Gregory R. Warnes \email{warnes@bst.rochester.edu}}
+\author{ Gregory R. Warnes \email{greg@warnes.net}}
 \note{ Future enhancements may allow the restoration of the size,
   location, and graphics settings of graphics devices. }
 

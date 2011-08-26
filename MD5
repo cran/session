@@ -1,0 +1,10 @@
+8c080664c7604fb900ea67640ef76b36 *ChangeLog
+821e384bba52ae108a9dab8e100da3da *DESCRIPTION
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+d41d8cd98f00b204e9800998ecf8427e *NEWS
+fa123f159c6c4fe3f6f64182d8f2a4b8 *R/session.R
+a008a91e7da0f67d022664a558a03d1d *R/texteval.R
+8c080664c7604fb900ea67640ef76b36 *inst/ChangeLog
+d41d8cd98f00b204e9800998ecf8427e *inst/NEWS
+71cde7c9f969b0c5ed34247243a10fc5 *man/session.Rd
+d202f039825ada62ea9f60ddb1c8f613 *man/texteval.Rd

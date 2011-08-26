@@ -45,7 +45,7 @@ printed(sourceText, collapse=NULL)
   vector of character strings.
 }
 
-\author{ Gregory R. Warnes \email{warnes@bst.rochester.edu}}
+\author{ Gregory R. Warnes \email{greg@warnes.net}}
 
 \seealso{ \code{\link{source}}, \code{\link{textConnection}},
   \code{\link{sink}}, \code{\link{parse}}, \code{\link{eval}} 

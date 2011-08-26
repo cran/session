@@ -1,0 +1,82 @@
+2006-11-16 18:44  warnes
+
+	* [r358] DESCRIPTION, man/session.Rd, man/texteval.Rd: Update my
+	  email address
+
+2003-04-04 14:03  warnes
+
+	* [r201] DESCRIPTION, R/session.R: - Change 'T' to 'TRUE'
+
+2003-04-04 13:50  warnes
+
+	* [r200] man/session.Rd: - Change 'T' to 'TRUE'
+
+2003-04-01 22:45  warnes
+
+	* [r199] man/texteval.Rd: - Add 'capture' to help page.
+
+2003-04-01 22:36  warnes
+
+	* [r198] R/texteval.R: - Added 'capture' function that grabs the
+	  result of evaluating an expression.
+	  - Modified texteval to use capture.
+
+2003-04-01 19:54  warnes
+
+	* [r197] R/texteval.R: - Add 'on.exit' so that the output sink will
+	  be terminated if there is
+	  an error during the evaluation of the sourceText code.
+
+2003-03-15 23:03  warnes
+
+	* [r151] man/session.Rd, man/texteval.Rd: - Clarified,
+	  spell-checked, and fixed a syntax error in help files.
+
+2003-03-15 22:41  warnes
+
+	* [r149] DESCRIPTION: - Changed version to 1.0, improved
+	  description.
+
+2002-10-22 13:33  warnesgr
+
+	* [r93] R/session.R: - Fix reloading of attached files.
+
+2002-06-20 17:01  warnesgr
+
+	* [r70] R/texteval.R: Fixed typo in printed()
+
+2002-06-12 16:00  warnesgr
+
+	* [r59] DESCRIPTION: - Updated description text and version number
+
+2002-06-12 15:57  warnesgr
+
+	* [r58] R/texteval.R, man/texteval.Rd: - Belated checkin of changes
+	  to texteval.R to add the function
+	  'printed' which does not include the evaluated commands in the
+	  output.
+	  - Updated the texteval.Rd help file.
+
+2002-04-30 14:20  warneg
+
+	* [r16] DESCRIPTION, R/texteval.R, man/session.Rd, man/texteval.Rd:
+	  - Added texteval function & documentation
+	  - Added keywords to session.Rd
+
+2002-04-12 19:32  warneg
+
+	* [r6] R/session.R, man/session.Rd: - Added code to remove
+	  temporary variable used to store search path
+	  and library path
+	  - Added cvs tags to the top of files
+
+2002-04-12 19:24  warneg
+
+	* [r5] .Rhistory, RSession.Rda, Rplots.ps: Removed files that don't
+	  belong in the package.
+
+2002-04-12 19:22  warneg
+
+	* [r2] ., .Rhistory, DESCRIPTION, R, R/session.R, RSession.Rda,
+	  Rplots.ps, man, man/session.Rd: Initial revision
+
